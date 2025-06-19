@@ -163035,7 +163035,7 @@ entities:
     - type: Transform
       pos: 113.4375,8.53125
       parent: 2
-- proto: HeadVulpkanin
+- proto: ADTHeadVulpkanin
   entities:
   - uid: 18289
     components:

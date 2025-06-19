@@ -214651,7 +214651,7 @@ entities:
     - type: Transform
       pos: 5.5657616,-32.213146
       parent: 13307
-- proto: HeadVulpkanin
+- proto: ADTHeadVulpkanin
   entities:
   - uid: 38169
     components:
@@ -218242,7 +218242,7 @@ entities:
     - type: Transform
       pos: 13.605678,-13.403539
       parent: 38538
-- proto: LeftArmVulpkanin
+- proto: ADTLeftArmVulpkanin
   entities:
   - uid: 38184
     components:
@@ -218251,7 +218251,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: LeftFootVulpkanin
+- proto: ADTLeftFootVulpkanin
   entities:
   - uid: 38163
     components:
@@ -218267,7 +218267,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: LeftHandVulpkanin
+- proto: ADTLeftHandVulpkanin
   entities:
   - uid: 38178
     components:
@@ -218276,7 +218276,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: LeftLegVulpkanin
+- proto: ADTLeftLegVulpkanin
   entities:
   - uid: 37936
     components:
@@ -243153,7 +243153,7 @@ entities:
     - type: Transform
       pos: -31.428576,65.43264
       parent: 13307
-- proto: RightFootVulpkanin
+- proto: ADTRightFootVulpkanin
   entities:
   - uid: 38175
     components:
@@ -243162,7 +243162,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: RightLegVulpkanin
+- proto: ADTRightLegVulpkanin
   entities:
   - uid: 37949
     components:
@@ -266501,7 +266501,7 @@ entities:
     - type: Transform
       pos: 74.405785,-38.394585
       parent: 13307
-- proto: TorsoVulpkanin
+- proto: ADTTorsoVulpkanin
   entities:
   - uid: 38191
     components:
