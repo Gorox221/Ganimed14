@@ -21845,8 +21845,6 @@ entities:
       pos: -35.5,-16.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 18860
       - 18632
@@ -22915,8 +22913,6 @@ entities:
       pos: 11.5,25.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 1106
   - uid: 478
@@ -23074,8 +23070,6 @@ entities:
       pos: 11.5,11.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 14369
       - 14370
@@ -25917,7 +25911,7 @@ entities:
       pos: 54.5,5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -107659.984
+      secondsUntilStateChange: -107694.73
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26282,7 +26276,7 @@ entities:
       pos: 24.5,72.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -385954.66
+      secondsUntilStateChange: -385989.4
       state: Opening
   - uid: 984
     components:
@@ -26303,7 +26297,7 @@ entities:
       pos: 18.5,68.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -401828.06
+      secondsUntilStateChange: -401862.8
       state: Opening
   - uid: 987
     components:
@@ -26318,7 +26312,7 @@ entities:
       pos: 23.5,72.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -385955.1
+      secondsUntilStateChange: -385989.84
       state: Opening
   - uid: 989
     components:
@@ -27065,8 +27059,6 @@ entities:
       pos: 25.5,12.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 13846
       - 488
@@ -78335,6 +78327,46 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 8.180624,39.51037
       parent: 2
+- proto: ChemistryBottleEphedrine
+  entities:
+  - uid: 13683
+    components:
+    - type: Transform
+      pos: -61.605972,-48.389294
+      parent: 2
+- proto: ChemistryBottleMuteToxin
+  entities:
+  - uid: 1874
+    components:
+    - type: MetaData
+      name: бутылочка токсина немоты
+    - type: Transform
+      parent: 1870
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ChemistryBottlePax
+  entities:
+  - uid: 1875
+    components:
+    - type: MetaData
+      name: бутылочка пакса
+    - type: Transform
+      parent: 1870
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ChemistryBottleUnstableMutagen
+  entities:
+  - uid: 35
+    components:
+    - type: MetaData
+      name: бутылочка нестабильного мутагена
+    - type: Transform
+      parent: 25
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ChemistryHotplate
   entities:
   - uid: 11041
@@ -96835,9 +96867,6 @@ entities:
     - type: Transform
       pos: -23.5,-32.5
       parent: 2
-    # - type: DisposalUnit
-    #   recentlyEjected:
-    #   - invalid
   - uid: 13378
     components:
     - type: Transform
@@ -99109,13 +99138,6 @@ entities:
       parent: 13681
     - type: Physics
       canCollide: False
-- proto: EphedrineChemistryBottle
-  entities:
-  - uid: 13683
-    components:
-    - type: Transform
-      pos: -61.605972,-48.389294
-      parent: 2
 - proto: ExosuitFabricator
   entities:
   - uid: 13684
@@ -100573,8 +100595,6 @@ entities:
       pos: 56.5,-38.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 13968
       - 13967
@@ -100701,8 +100721,6 @@ entities:
       pos: -18.5,62.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 13982
       - 13983
@@ -100772,8 +100790,6 @@ entities:
       pos: 3.5,21.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 14016
       - 14015
@@ -100836,8 +100852,6 @@ entities:
       pos: 29.5,11.5
       parent: 2
     - type: DeviceList
-      # configurators:
-      # - invalid
       devices:
       - 18567
       - 18786
@@ -101718,8 +101732,6 @@ entities:
       pos: -40.5,-28.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 490
       - 464
@@ -103710,7 +103722,7 @@ entities:
       pos: 19.5,62.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -425199.72
+      secondsUntilStateChange: -425234.47
       state: Closing
   - uid: 14231
     components:
@@ -104029,7 +104041,7 @@ entities:
       pos: -4.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -278315.2
+      secondsUntilStateChange: -278349.94
       state: Closing
   - uid: 14293
     components:
@@ -104651,8 +104663,6 @@ entities:
       pos: -11.5,18.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -104662,8 +104672,6 @@ entities:
       pos: -19.5,12.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -104673,8 +104681,6 @@ entities:
       pos: -20.5,15.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -104684,8 +104690,6 @@ entities:
       pos: -20.5,16.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -135410,8 +135414,6 @@ entities:
       pos: -17.5,19.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -135424,8 +135426,6 @@ entities:
       pos: -18.5,14.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -137207,8 +137207,6 @@ entities:
       pos: -15.5,19.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -138430,8 +138428,6 @@ entities:
       pos: -14.5,14.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 475
       - 13847
@@ -149345,7 +149341,7 @@ entities:
       pos: 29.5,63.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -400970.38
+      secondsUntilStateChange: -401005.12
       state: Opening
 - proto: HospitalCurtainsOpen
   entities:
@@ -154485,6 +154481,13 @@ entities:
     - type: Transform
       pos: -64.5,-32.5
       parent: 2
+- proto: MachineMaterialSilo
+  entities:
+  - uid: 26161
+    components:
+    - type: Transform
+      pos: -10.5,-8.5
+      parent: 2
 - proto: MagazineBoxAntiMateriel
   entities:
   - uid: 20610
@@ -156087,17 +156090,6 @@ entities:
     - type: Transform
       pos: 34.303963,69.547195
       parent: 2
-- proto: MuteToxinChemistryBottle
-  entities:
-  - uid: 1874
-    components:
-    - type: MetaData
-      name: бутылочка токсина немоты
-    - type: Transform
-      parent: 1870
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NetProbeCartridge
   entities:
   - uid: 11285
@@ -157560,12 +157552,15 @@ entities:
     - type: Transform
       pos: -62.700577,-32.393593
       parent: 2
+    - type: CollisionWake
+      enabled: False
     - type: Paper
       stampState: paper_stamp-clown
       stampedBy:
       - stampedColor: '#FF33CCFF'
         stampedName: stamp-component-stamped-name-clown
       content: '[head=1][color=red][bold]КТО ПРОЧЁЛ - ТОТ КОЗЁЛ[/bold][/color][/head]'
+    - type: Conveyed
 - proto: PaperOffice
   entities:
   - uid: 308
@@ -157854,17 +157849,6 @@ entities:
     - type: Transform
       pos: 45.80349,70.4591
       parent: 2
-- proto: PaxChemistryBottle
-  entities:
-  - uid: 1875
-    components:
-    - type: MetaData
-      name: бутылочка пакса
-    - type: Transform
-      parent: 1870
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: Pen
   entities:
   - uid: 21552
@@ -157918,7 +157902,7 @@ entities:
   - uid: 21561
     components:
     - type: Transform
-      pos: -10.522747,-8.344166
+      pos: -9.246592,-8.31011
       parent: 2
 - proto: PersonalAI
   entities:
@@ -173803,6 +173787,9 @@ entities:
     - type: Transform
       pos: -62.502792,-34.07305
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 24276
     components:
     - type: Transform
@@ -186261,11 +186248,6 @@ entities:
     - type: Transform
       pos: -13.5,-7.5
       parent: 2
-  - uid: 26161
-    components:
-    - type: Transform
-      pos: -10.5,-8.5
-      parent: 2
   - uid: 26162
     components:
     - type: Transform
@@ -188311,17 +188293,6 @@ entities:
     - type: Transform
       pos: -36.267963,-42.216316
       parent: 2
-- proto: UnstableMutagenChemistryBottle
-  entities:
-  - uid: 35
-    components:
-    - type: MetaData
-      name: бутылочка нестабильного мутагена
-    - type: Transform
-      parent: 25
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: Vaccinator
   entities:
   - uid: 26442

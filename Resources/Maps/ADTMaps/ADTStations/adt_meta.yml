@@ -11002,8 +11002,6 @@ entities:
 - proto: ActionStartFishing
   entities:
   - uid: 6
-    # mapInit: true
-    # paused: true
     components:
     - type: Transform
       parent: 5
@@ -16830,7 +16828,7 @@ entities:
       pos: 12.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -90985.47
+      secondsUntilStateChange: -91008.62
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -127509,8 +127507,6 @@ entities:
       pos: 80.5,-17.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19434
@@ -127520,8 +127516,6 @@ entities:
       pos: 80.5,-19.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19435
@@ -127531,8 +127525,6 @@ entities:
       pos: 80.5,-18.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19436
@@ -129328,8 +129320,6 @@ entities:
       pos: 82.5,-17.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19665
@@ -129339,8 +129329,6 @@ entities:
       pos: 82.5,-18.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19666
@@ -129350,8 +129338,6 @@ entities:
       pos: 82.5,-19.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 303
   - uid: 19667
@@ -140010,7 +139996,7 @@ entities:
       pos: 28.5,36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -1139.4679
+      secondsUntilStateChange: -1162.6151
       state: Closing
   - uid: 21528
     components:
@@ -142688,6 +142674,13 @@ entities:
     components:
     - type: Transform
       pos: -38.5,-46.5
+      parent: 2
+- proto: MachineMaterialSilo
+  entities:
+  - uid: 32536
+    components:
+    - type: Transform
+      pos: -21.5,18.5
       parent: 2
 - proto: MachineParticleAcceleratorEmitterForeCircuitboard
   entities:

@@ -28549,37 +28549,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 85.5,-25.5
       parent: 2
-- proto: AlwaysPoweredWallLight
-  entities:
-  - uid: 225
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 87.5,-25.5
-      parent: 2
-  - uid: 14253
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 95.5,-25.5
-      parent: 2
-  - uid: 16912
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 96.5,-14.5
-      parent: 2
-  - uid: 17408
-    components:
-    - type: Transform
-      pos: 95.5,-13.5
-      parent: 2
-  - uid: 19691
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 96.5,-24.5
-      parent: 2
 - proto: ADTPsychoAirlockLocked
   entities:
   - uid: 727
@@ -30931,7 +30900,7 @@ entities:
       pos: 41.5,-17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -141421.44
+      secondsUntilStateChange: -141443.28
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30957,7 +30926,7 @@ entities:
       pos: 19.5,-2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -272668.62
+      secondsUntilStateChange: -272690.47
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30968,7 +30937,7 @@ entities:
       pos: 35.5,-25.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -191368.05
+      secondsUntilStateChange: -191389.89
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31082,7 +31051,7 @@ entities:
       pos: 49.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -244149.11
+      secondsUntilStateChange: -244170.95
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31231,7 +31200,7 @@ entities:
       pos: 49.5,22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -319158.7
+      secondsUntilStateChange: -319180.53
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31311,7 +31280,7 @@ entities:
       pos: 42.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -8272.513
+      secondsUntilStateChange: -8294.352
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31366,7 +31335,7 @@ entities:
       pos: 8.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -199781.95
+      secondsUntilStateChange: -199803.8
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31957,7 +31926,7 @@ entities:
       pos: -38.5,46.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -92330.33
+      secondsUntilStateChange: -92352.164
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -32273,7 +32242,7 @@ entities:
       pos: 32.5,29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17143.047
+      secondsUntilStateChange: -17164.885
       changeAirtight: False
       state: Opening
     - type: DeviceLinkSource
@@ -32322,7 +32291,7 @@ entities:
       pos: 57.5,-46.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -138750.36
+      secondsUntilStateChange: -138772.2
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -32780,7 +32749,7 @@ entities:
       pos: -12.5,32.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -142477.1
+      secondsUntilStateChange: -142498.94
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -33319,7 +33288,7 @@ entities:
       pos: -18.5,55.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -125326.49
+      secondsUntilStateChange: -125348.33
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -33498,7 +33467,7 @@ entities:
       pos: 15.5,-43.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -234549.8
+      secondsUntilStateChange: -234571.64
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -35185,6 +35154,37 @@ entities:
     components:
     - type: Transform
       pos: 33.5,-54.5
+      parent: 2
+- proto: AlwaysPoweredWallLight
+  entities:
+  - uid: 225
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 87.5,-25.5
+      parent: 2
+  - uid: 14253
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 95.5,-25.5
+      parent: 2
+  - uid: 16912
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 96.5,-14.5
+      parent: 2
+  - uid: 17408
+    components:
+    - type: Transform
+      pos: 95.5,-13.5
+      parent: 2
+  - uid: 19691
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 96.5,-24.5
       parent: 2
 - proto: AmmoniaCanister
   entities:
@@ -129249,7 +129249,7 @@ entities:
       pos: 3.5,-8.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -54631.016
+      secondsUntilStateChange: -54652.855
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -129674,7 +129674,7 @@ entities:
       pos: 1.5,28.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -127591.82
+      secondsUntilStateChange: -127613.66
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 28912.4282324
@@ -189599,6 +189599,13 @@ entities:
     - type: Transform
       pos: -114.5,37.5
       parent: 2
+- proto: MachineMaterialSilo
+  entities:
+  - uid: 38881
+    components:
+    - type: Transform
+      pos: 26.5,14.5
+      parent: 2
 - proto: MagazineBoxMagnum
   entities:
   - uid: 24307
@@ -227446,7 +227453,7 @@ entities:
       pos: -112.5,30.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -32430.367
+      secondsUntilStateChange: -32452.205
       state: Opening
   - uid: 29008
     components:
@@ -227455,7 +227462,7 @@ entities:
       pos: -110.5,45.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -62135.598
+      secondsUntilStateChange: -62157.438
       state: Opening
   - uid: 29009
     components:
@@ -270810,7 +270817,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -14762.5625
+      secondsUntilStateChange: -14784.401
       state: Opening
     - type: Airlock
       autoClose: False

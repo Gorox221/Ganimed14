@@ -22368,7 +22368,7 @@ entities:
       pos: -86.5,-39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -45082.324
+      secondsUntilStateChange: -45099.793
       state: Opening
   - uid: 409
     components:
@@ -22692,7 +22692,7 @@ entities:
       pos: 40.5,-40.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -89864.62
+      secondsUntilStateChange: -89882.086
       state: Opening
   - uid: 466
     components:
@@ -23903,7 +23903,7 @@ entities:
       pos: -7.5,-33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -38361.375
+      secondsUntilStateChange: -38378.844
       state: Opening
   - uid: 673
     components:
@@ -23966,7 +23966,7 @@ entities:
       pos: 21.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -565.5906
+      secondsUntilStateChange: -583.0592
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -24064,7 +24064,7 @@ entities:
       pos: 32.5,-70.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -36212.766
+      secondsUntilStateChange: -36230.234
       state: Opening
 - proto: AirlockMaintDetectiveLocked
   entities:
@@ -24456,7 +24456,7 @@ entities:
       pos: -52.5,-26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74191.375
+      secondsUntilStateChange: -74208.84
       state: Opening
   - uid: 769
     components:
@@ -24840,7 +24840,7 @@ entities:
       pos: 30.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -68646.766
+      secondsUntilStateChange: -68664.234
       state: Opening
 - proto: AirlockSecurityGlassLocked
   entities:
@@ -141163,8 +141163,6 @@ entities:
       pos: 61.5,-1.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 379
 - proto: GasVentScrubber
@@ -141407,9 +141405,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 27.5,-70.5
       parent: 2
-    # - type: DeviceNetwork
-    #   configurators:
-    #   - invalid
     - type: AtmosPipeColor
       color: '#FF0000FF'
   - uid: 20489
@@ -142437,8 +142432,6 @@ entities:
       pos: 24.5,-51.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 242
     - type: AtmosPipeColor
@@ -142450,8 +142443,6 @@ entities:
       pos: 59.5,-3.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 379
 - proto: GasVolumePump
@@ -153316,6 +153307,13 @@ entities:
     components:
     - type: Transform
       pos: 28.5,20.5
+      parent: 2
+- proto: MachineMaterialSilo
+  entities:
+  - uid: 31345
+    components:
+    - type: Transform
+      pos: -10.5,9.5
       parent: 2
 - proto: MagazineShotgun
   entities:

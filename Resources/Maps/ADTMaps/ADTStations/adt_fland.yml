@@ -16266,8 +16266,6 @@ entities:
     - type: NavMap
     - type: SupermatterSpreaderGrid
   - uid: 23457
-    # mapInit: true
-    # paused: true
     components:
     - type: MetaData
       name: solution - spray
@@ -16285,8 +16283,6 @@ entities:
       containerName: spray
       container: 17432
   - uid: 35442
-    # mapInit: true
-    # paused: true
     components:
     - type: MetaData
       name: solution - drink
@@ -20468,7 +20464,7 @@ entities:
       pos: 98.5,49.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21724.852
+      secondsUntilStateChange: -21772.342
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -21817,7 +21813,7 @@ entities:
       pos: -14.5,54.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -6714.6167
+      secondsUntilStateChange: -6762.1074
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -114458,8 +114454,6 @@ entities:
       pos: -30.352087,69.87794
       parent: 2
   - uid: 35441
-    # mapInit: true
-    # paused: true
     components:
     - type: MetaData
       name: Особый Запас Дядюшки Гита (виски)
@@ -114477,11 +114471,7 @@ entities:
     - type: Openable
       opened: True
     - type: PressurizedSolution
-      sprayFizzinessThresholdRoll: 0.95709586
-    - type: MeleeWeapon
-      nextAttack: -0.6857126
-    - type: EmitSoundOnCollide
-      nextSound: -159270.0978726
+      sprayFizzinessThresholdRoll: 0.8255515
     - type: NameModifier
       baseName: Особый Запас Дядюшки Гита
     - type: ContainerContainer
@@ -116826,8 +116816,6 @@ entities:
       pos: 18.51229,-24.30618
       parent: 2
   - uid: 17432
-    # mapInit: true
-    # paused: true
     components:
     - type: MetaData
       desc: От него пахнет пивом..
@@ -116844,10 +116832,6 @@ entities:
           endTime: 0
           startTime: 0
           length: 1
-    - type: MeleeWeapon
-      nextAttack: -0.6285698
-    - type: EmitSoundOnCollide
-      nextSound: -159818.3258958
     - type: ContainerContainer
       containers:
         solution@spray: !type:ContainerSlot
@@ -118342,7 +118326,7 @@ entities:
       pos: 56.5,25.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -36782.375
+      secondsUntilStateChange: -36829.867
       state: Closing
   - uid: 17724
     components:
@@ -119954,11 +119938,17 @@ entities:
     - type: Transform
       pos: 131.71098,-3.6476665
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 18027
     components:
     - type: Transform
       pos: 131.32036,-3.2101665
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
 - proto: FoodBoxDonkpocketPizza
   entities:
   - uid: 18028
@@ -120286,6 +120276,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 130.64848,-3.0851665
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
 - proto: FoodTinMRETrash
   entities:
   - uid: 18074
@@ -169670,6 +169663,13 @@ entities:
     - type: Transform
       pos: 28.5,58.5
       parent: 2
+- proto: MachineMaterialSilo
+  entities:
+  - uid: 36197
+    components:
+    - type: Transform
+      pos: 91.5,48.5
+      parent: 2
 - proto: MagazinePistol
   entities:
   - uid: 24685
@@ -202373,8 +202373,6 @@ entities:
 - proto: TeslaGroundingRodFlatpack
   entities:
   - uid: 5401
-    # mapInit: true
-    # paused: true
     components:
     - type: MetaData
       desc: Универсально-сборная упаковка, используемая для сборки кристалла суперматерии.
@@ -202384,8 +202382,6 @@ entities:
       parent: 2
     - type: Flatpack
       entity: Supermatter
-    - type: EmitSoundOnCollide
-      nextSound: -185028.3864
 - proto: Thruster
   entities:
   - uid: 30006

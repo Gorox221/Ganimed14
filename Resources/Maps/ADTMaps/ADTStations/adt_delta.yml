@@ -120,7 +120,6 @@ entities:
     - type: OccluderTree
     - type: Parallax
       parallax: NesPurple
-    - type: LoadedMap
   - uid: 2
     components:
     - type: MetaData
@@ -26945,6 +26944,7 @@ entities:
       id: Delta
     - type: SpreaderGrid
     - type: NavMap
+    - type: SupermatterSpreaderGrid
   - uid: 3084
     components:
     - type: MetaData
@@ -28092,6 +28092,29 @@ entities:
           showEnts: False
           occludes: True
           ent: null
+- proto: ADTMagazineBoxMagnumLesser
+  entities:
+  - uid: 24307
+    components:
+    - type: Transform
+      parent: 24306
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 24428
+    components:
+    - type: Transform
+      pos: 60.33274,7.545334
+      parent: 2
+- proto: ADTMagazineBoxMagnumLesserPractice
+  entities:
+  - uid: 24308
+    components:
+    - type: Transform
+      parent: 24306
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ADTMatchbox
   entities:
   - uid: 20275
@@ -28185,36 +28208,52 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 85.5,-25.5
       parent: 2
-- proto: AlwaysPoweredWallLight
+- proto: ADTSmartFridgeMedical
   entities:
-  - uid: 225
+  - uid: 1941
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 87.5,-25.5
+      pos: -12.5,26.5
       parent: 2
-  - uid: 14253
+  - uid: 7322
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 95.5,-25.5
+      pos: 27.5,-26.5
       parent: 2
-  - uid: 16912
+  - uid: 7629
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 96.5,-14.5
+      pos: -20.5,28.5
       parent: 2
-  - uid: 17408
+  - uid: 14733
     components:
     - type: Transform
-      pos: 95.5,-13.5
+      pos: -28.5,26.5
       parent: 2
-  - uid: 19691
+    - type: ContainerContainer
+      containers:
+        smart_fridge_inventory: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        smart_fridge_insertion: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+    - type: EntityStorage
+      open: True
+      closeSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/closetclose.ogg
+      openSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/closetopen.ogg
+  - uid: 28724
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 96.5,-24.5
+      pos: 2.5,-48.5
       parent: 2
 - proto: ADTSofaBrownLeftSide
   entities:
@@ -30410,7 +30449,7 @@ entities:
       pos: 41.5,-17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -52107.453
+      secondsUntilStateChange: -52126.82
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30436,7 +30475,7 @@ entities:
       pos: 19.5,-2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -183354.62
+      secondsUntilStateChange: -183373.98
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30447,7 +30486,7 @@ entities:
       pos: 35.5,-25.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -102054.07
+      secondsUntilStateChange: -102073.44
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30587,7 +30626,7 @@ entities:
       pos: 49.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -154835.11
+      secondsUntilStateChange: -154854.47
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30789,7 +30828,7 @@ entities:
       pos: 49.5,22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -229844.69
+      secondsUntilStateChange: -229864.05
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -30898,7 +30937,7 @@ entities:
       pos: 8.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -110467.98
+      secondsUntilStateChange: -110487.34
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31549,7 +31588,7 @@ entities:
       pos: -38.5,46.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -3016.3647
+      secondsUntilStateChange: -3035.7314
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31689,7 +31728,7 @@ entities:
       pos: 38.5,21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -141164.77
+      secondsUntilStateChange: -141184.12
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31700,7 +31739,7 @@ entities:
       pos: 38.5,17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -136373.66
+      secondsUntilStateChange: -136393.02
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31973,7 +32012,7 @@ entities:
       pos: 57.5,-46.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -49436.367
+      secondsUntilStateChange: -49455.734
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -32415,7 +32454,7 @@ entities:
       pos: -12.5,32.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -53163.11
+      secondsUntilStateChange: -53182.477
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -32940,7 +32979,7 @@ entities:
       pos: -18.5,55.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -36012.52
+      secondsUntilStateChange: -36031.887
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -33130,7 +33169,7 @@ entities:
       pos: 15.5,-43.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -145235.8
+      secondsUntilStateChange: -145255.16
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -34855,6 +34894,37 @@ entities:
     components:
     - type: Transform
       pos: 33.5,-54.5
+      parent: 2
+- proto: AlwaysPoweredWallLight
+  entities:
+  - uid: 225
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 87.5,-25.5
+      parent: 2
+  - uid: 14253
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 95.5,-25.5
+      parent: 2
+  - uid: 16912
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 96.5,-14.5
+      parent: 2
+  - uid: 17408
+    components:
+    - type: Transform
+      pos: 95.5,-13.5
+      parent: 2
+  - uid: 19691
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 96.5,-24.5
       parent: 2
 - proto: AmmoniaCanister
   entities:
@@ -103398,6 +103468,41 @@ entities:
     - type: Transform
       pos: -6.654764,-46.34208
       parent: 2
+- proto: ChemistryBottleEpinephrine
+  entities:
+  - uid: 12110
+    components:
+    - type: Transform
+      pos: 28.609524,-25.51077
+      parent: 2
+  - uid: 17121
+    components:
+    - type: Transform
+      pos: 4.4419594,-33.607895
+      parent: 2
+- proto: ChemistryBottlePax
+  entities:
+  - uid: 24374
+    components:
+    - type: Transform
+      parent: 24373
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ChemistryBottleRobustHarvest
+  entities:
+  - uid: 24478
+    components:
+    - type: Transform
+      pos: -21.64261,29.595764
+      parent: 2
+- proto: ChemistryBottleUnstableMutagen
+  entities:
+  - uid: 24476
+    components:
+    - type: Transform
+      pos: -21.329943,29.61139
+      parent: 2
 - proto: ChemistryHotplate
   entities:
   - uid: 5089
@@ -108976,6 +109081,21 @@ entities:
     - type: Transform
       pos: -3.1418045,0.1992526
       parent: 2
+- proto: ClothingMaskBlushingClown
+  entities:
+  - uid: 14525
+    components:
+    - type: Transform
+      pos: 47.621845,-53.26381
+      parent: 2
+- proto: ClothingMaskBlushingMime
+  entities:
+  - uid: 2208
+    components:
+    - type: Transform
+      parent: 2203
+    - type: Physics
+      canCollide: False
 - proto: ClothingMaskBreath
   entities:
   - uid: 43
@@ -109197,21 +109317,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingMaskSexyClown
-  entities:
-  - uid: 14525
-    components:
-    - type: Transform
-      pos: 47.621845,-53.26381
-      parent: 2
-- proto: ClothingMaskSexyMime
-  entities:
-  - uid: 2208
-    components:
-    - type: Transform
-      parent: 2203
-    - type: Physics
-      canCollide: False
 - proto: ClothingMaskSterile
   entities:
   - uid: 14527
@@ -125464,18 +125569,6 @@ entities:
       rot: 1.0182609457842773E-06 rad
       pos: -111.46251,45.595146
       parent: 2
-- proto: EpinephrineChemistryBottle
-  entities:
-  - uid: 12110
-    components:
-    - type: Transform
-      pos: 28.609524,-25.51077
-      parent: 2
-  - uid: 17121
-    components:
-    - type: Transform
-      pos: 4.4419594,-33.607895
-      parent: 2
 - proto: ExosuitFabricator
   entities:
   - uid: 17123
@@ -128166,7 +128259,7 @@ entities:
       pos: 1.5,28.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -38277.848
+      secondsUntilStateChange: -38297.215
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 28912.4282324
@@ -169513,8 +169606,6 @@ entities:
       pos: 61.5,-31.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 31055
       - 15161
@@ -169527,8 +169618,6 @@ entities:
       pos: -123.5,30.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 31357
   - uid: 34854
@@ -171896,8 +171985,6 @@ entities:
       pos: 59.5,-31.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 31055
       - 15161
@@ -171918,8 +172005,6 @@ entities:
       pos: -123.5,32.5
       parent: 2
     - type: DeviceNetwork
-      # configurators:
-      # - invalid
       deviceLists:
       - 31357
   - uid: 36014
@@ -186566,29 +186651,13 @@ entities:
     - type: Transform
       pos: -114.5,37.5
       parent: 2
-- proto: ADTMagazineBoxMagnumLesser
+- proto: MachineMaterialSilo
   entities:
-  - uid: 24307
+  - uid: 38501
     components:
     - type: Transform
-      parent: 24306
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 24428
-    components:
-    - type: Transform
-      pos: 60.33274,7.545334
+      pos: 26.5,14.5
       parent: 2
-- proto: ADTMagazineBoxMagnumLesserPractice
-  entities:
-  - uid: 24308
-    components:
-    - type: Transform
-      parent: 24306
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: MagazineBoxPistol
   entities:
   - uid: 38369
@@ -188344,8 +188413,6 @@ entities:
     - type: Transform
       pos: 70.5,38.5
       parent: 2
-    - type: Lock
-      locked: True
   - uid: 24598
     components:
     - type: Transform
@@ -189628,7 +189695,6 @@ entities:
       address: Конс-6A88-D0F0
       receiveFrequency: 2202
     - type: Store
-      # startingMap: invalid
       fullListingsCatalog:
       - id: UplinkADTAntagIronTray
         disableRefund: False
@@ -199117,15 +199183,6 @@ entities:
         discountDownTo: {}
         costModifiersBySourceId: {}
     - type: ActionsContainer
-- proto: PaxChemistryBottle
-  entities:
-  - uid: 24374
-    components:
-    - type: Transform
-      parent: 24373
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: Pen
   entities:
   - uid: 1691
@@ -218395,13 +218452,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 12.257994,-60.69668
       parent: 2
-- proto: RobustHarvestChemistryBottle
-  entities:
-  - uid: 24478
-    components:
-    - type: Transform
-      pos: -21.64261,29.595764
-      parent: 2
 - proto: RockGuitarInstrument
   entities:
   - uid: 7958
@@ -223128,35 +223178,6 @@ entities:
     components:
     - type: Transform
       pos: 13.5,5.5
-      parent: 2
-- proto: SmartFridge
-  entities:
-  - uid: 1941
-    components:
-    - type: Transform
-      pos: -12.5,26.5
-      parent: 2
-  - uid: 7322
-    components:
-    - type: Transform
-      pos: 27.5,-26.5
-      parent: 2
-  - uid: 7629
-    components:
-    - type: Transform
-      pos: -20.5,28.5
-      parent: 2
-  - uid: 14733
-    components:
-    - type: Transform
-      pos: -28.5,26.5
-      parent: 2
-    - type: EntityStorage
-      open: True
-  - uid: 28724
-    components:
-    - type: Transform
-      pos: 2.5,-48.5
       parent: 2
 - proto: SMESBasic
   entities:
@@ -236155,13 +236176,6 @@ entities:
     components:
     - type: Transform
       pos: 55.471638,-14.562745
-      parent: 2
-- proto: UnstableMutagenChemistryBottle
-  entities:
-  - uid: 24476
-    components:
-    - type: Transform
-      pos: -21.329943,29.61139
       parent: 2
 - proto: Vaccinator
   entities:
